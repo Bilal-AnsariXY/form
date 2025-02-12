@@ -7,74 +7,88 @@
 </head>
 <body>
     <form>
-        <table  cellpadding = "10">
-            <tr>
-                <th><label>Name</label></th>
-                <td><input type="text" placeholder="name"></td>
-            </tr>
+        <fieldset>
+            <legend>Persnal details</legend>
+            <table  width = 100px height = auto cellpadding = "10">
             
-            <tr>
-                <th><label>Password</label></th>
-                <td><input type="password" placeholder="Password"></td>
-            </tr>
-            <tr>
-                <th><label>Email</label></th>
-                <td><input type="email" placeholder="email"></td>
-            </tr>
-            <tr>
-                <th><label>Ph No</label></th>
-                <td><input type="number" placeholder="number" min="10"></td>
-            </tr>
-           <tr>
-                <th><label >Color</label></th>
-                <td><input type="color" ></td>
-           </tr>
-           <tr>
-                <th><label >Range</label></th>
-                <td><input type="range" step="15"></td>
-           </tr>
-            <tr>
-                <th><label>Age</label></th>
-                <td><input type="number" placeholder="Age"></td>
-            </tr>
-            <tr>
-                <th><label>Choose your photo</label></th>
-                <td><input type="file" placeholder="file"></td>
-            </tr>
-            <tr>
-                <th>Select Subject</th>
-                <td><select> 
-                    <option >math</option>
-                    <option>hindi</option>
-                    <option>science</option>
-                    <option>english</option>
-                    <option>computers</option>
-                    <option>sst</option>
-                    <option>sports</option>
-                </select></td>
+                <tr>
+                    <th><label>Name</label></th>
+                    <td><input type="text" placeholder="name"></td>
+                </tr>
+                
+                <tr>
+                    <th><label>Password</label></th>
+                    <td><input type="password" placeholder="Password"></td>
+                </tr>
+                <tr>
+                    <th><label>Email</label></th>
+                    <td><input type="email" placeholder="email"></td>
+                </tr>
+                <tr>
+                    <th><label>Ph No</label></th>
+                    <td><input type="number" placeholder="number" min="10"></td>
+                </tr>
+                <tr>
+                    <th><label>Age</label></th>
+                    <td><input type="number" placeholder="Age"></td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>Extra things</legend>
+            <table width = 100px height = auto cellpadding = "10">
+                <tr>
+                    <th><label >Color</label></th>
+                    <td><input type="color" ></td>
+                </tr>
+                <tr>
+                    <th><label >Range</label></th>
+                    <td><input type="range" step="15"></td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>Submition</legend>
+            <table  cellpadding = "10">
+                <tr>
+                    <th><label>Choose your photo</label></th>
+                    <td><input type="file" placeholder="file"></td>
+                </tr>
+                <tr>
+                    <th>Select Subject</th>
+                    <td><select> 
+                        <option >math</option>
+                        <option>hindi</option>
+                        <option>science</option>
+                        <option>english</option>
+                        <option>computers</option>
+                        <option>sst</option>
+                        <option>sports</option>
+                    </select></td>
 
-            </tr>
-            <tr>
-                <th>Gender</th>
-                <td>
-                <label for="m">Male</label>
-                <input type="radio" name="m" id="m">
-                <label for="f">Female</label>
-                <input type="radio" name="m"  id="f">
-                </td>
-            </tr>
+                </tr>
+            
+                <tr>
+                    <th>Gender</th>
+                    <td>
+                    <label for="m">Male</label>
+                    <input type="radio" name="m" id="m">
+                    <label for="f">Female</label>
+                    <input type="radio" name="m"  id="f">
+                    </td>
+                </tr>
 
-            <tr>
+                <tr>
                 <th>
                 
-                <input type="submit" placeholder="Submit" >
+                    <input type="submit" placeholder="Submit" >
                 </th>
                 <td>
                     <input type="reset" placeholder="Reset" >
                 </td>
-            </tr>
-        </table>
-        
+                </tr>
+            </table>
+        </fieldset>
     </form>
     
 </body>
